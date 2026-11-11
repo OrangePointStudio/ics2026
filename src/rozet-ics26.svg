@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024">
+  <defs>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#E9ECEF"/>
+      <stop offset=".22" stop-color="#7C828A"/>
+      <stop offset=".45" stop-color="#F5F6F7"/>
+      <stop offset=".7" stop-color="#5B6068"/>
+      <stop offset="1" stop-color="#C9CDD2"/>
+    </linearGradient>
+    <linearGradient id="face" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1B1C20"/>
+      <stop offset="1" stop-color="#0B0B0D"/>
+    </linearGradient>
+    <linearGradient id="holo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ED6E3F" stop-opacity=".55"/>
+      <stop offset=".3" stop-color="#F6C453" stop-opacity=".35"/>
+      <stop offset=".5" stop-color="#B57CFF" stop-opacity=".30"/>
+      <stop offset=".72" stop-color="#4FB3E8" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#ED6E3F" stop-opacity=".35"/>
+    </linearGradient>
+    <linearGradient id="fuse" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#FF8A4C"/>
+      <stop offset=".5" stop-color="#E8D7FF"/>
+      <stop offset="1" stop-color="#5CC4F2"/>
+    </linearGradient>
+    <radialGradient id="core" cx=".5" cy=".5" r=".5">
+      <stop offset="0" stop-color="#FFF6D8"/>
+      <stop offset=".35" stop-color="#FFB36B" stop-opacity=".85"/>
+      <stop offset="1" stop-color="#ED6E3F" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glowO" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="18" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <pattern id="foil" width="28" height="28" patternUnits="userSpaceOnUse" patternTransform="rotate(32)">
+      <rect width="28" height="28" fill="none"/>
+      <path d="M0 14h28" stroke="#FFFFFF" stroke-opacity=".06" stroke-width="2"/>
+    </pattern>
+  </defs>
+
+  <!-- halo -->
+  <g opacity=".9" filter="url(#glowO)">
+    <rect x="262" y="132" width="500" height="700" rx="46" transform="rotate(-6 512 482)" fill="none" stroke="#ED6E3F" stroke-width="14"/>
+  </g>
+  <g opacity=".7" filter="url(#glowO)">
+    <rect x="262" y="132" width="500" height="700" rx="46" transform="rotate(-6 512 482)" fill="none" stroke="#4FB3E8" stroke-width="6" stroke-dasharray="0 1100 900"/>
+  </g>
+
+  <g transform="rotate(-6 512 482)">
+    <!-- metal frame -->
+    <rect x="262" y="132" width="500" height="700" rx="46" fill="url(#metal)"/>
+    <rect x="280" y="150" width="464" height="664" rx="34" fill="#0E0E10"/>
+    <!-- card face -->
+    <rect x="292" y="162" width="440" height="640" rx="26" fill="url(#face)"/>
+    <rect x="292" y="162" width="440" height="640" rx="26" fill="url(#holo)"/>
+    <rect x="292" y="162" width="440" height="640" rx="26" fill="url(#foil)"/>
+    <rect x="292" y="162" width="440" height="640" rx="26" fill="none" stroke="#ED6E3F" stroke-width="4" filter="url(#soft)"/>
+
+    <!-- art window -->
+    <rect x="322" y="236" width="380" height="300" rx="16" fill="#08080A" stroke="#2A2B30" stroke-width="3"/>
+    <!-- two fused cards emblem -->
+    <g transform="translate(512 386)">
+      <g transform="rotate(-14) translate(-62 0)">
+        <rect x="-58" y="-86" width="116" height="168" rx="14" fill="#2A140A" stroke="#ED6E3F" stroke-width="7" filter="url(#soft)"/>
+        <path d="M58 4 L22 -6 L-6 -40 L-24 -70 M22 -6 L-10 10 L-40 4 M-10 10 L-22 44 L-36 74 M22 -6 L8 30" stroke="#FFC98A" stroke-width="4" fill="none" stroke-linecap="round"/>
+      </g>
+      <g transform="rotate(14) translate(62 0)">
+        <rect x="-58" y="-86" width="116" height="168" rx="14" fill="#0A1A26" stroke="#4FB3E8" stroke-width="7" filter="url(#soft)"/>
+        <path d="M-58 -4 L-22 6 L6 40 L24 70 M-22 6 L10 -10 L40 -4 M10 -10 L22 -44 L36 -74 M-22 6 L-8 -30" stroke="#BDE8FC" stroke-width="4" fill="none" stroke-linecap="round"/>
+      </g>
+      <circle r="70" fill="url(#core)"/>
+    </g>
+
+    <!-- name bar -->
+    <rect x="322" y="166" width="380" height="54" rx="10" fill="none"/>
+    <text x="330" y="212" font-family="Avenir Next, Helvetica Neue, Arial" font-weight="800" font-size="40" letter-spacing="2" fill="#FFFCF2">ICS 2026</text>
+    <text x="698" y="210" text-anchor="end" font-family="Avenir Next, Helvetica Neue, Arial" font-weight="700" font-size="22" letter-spacing="3" fill="#F6C453">PROMO</text>
+
+    <!-- text block -->
+    <text x="512" y="598" text-anchor="middle" font-family="Avenir Next, Helvetica Neue, Arial" font-weight="800" font-size="30" letter-spacing="2" fill="url(#fuse)">İSTANBUL CARD SHOW</text>
+    <text x="512" y="642" text-anchor="middle" font-family="Avenir Next, Helvetica Neue, Arial" font-weight="600" font-size="24" letter-spacing="6" fill="#C9CDD2">SONBAHAR · 14–15 KASIM</text>
+    <line x1="352" y1="672" x2="672" y2="672" stroke="#ED6E3F" stroke-opacity=".6" stroke-width="2"/>
+    <text x="512" y="712" text-anchor="middle" font-family="Avenir Next, Helvetica Neue, Arial" font-weight="700" font-size="22" letter-spacing="5" fill="#FFFCF2">FUSION VISION</text>
+    <text x="320" y="778" font-family="Menlo, monospace" font-size="18" fill="#7C828A">FV-ICS26 · 001</text>
+  </g>
+
+  <!-- promo star stamp -->
+  <g transform="translate(722 770) rotate(-6)" filter="url(#soft)">
+    <circle r="76" fill="#0E0E10" stroke="url(#metal)" stroke-width="10"/>
+    <path d="M0 -50 L14 -16 L50 -15 L22 8 L31 44 L0 24 L-31 44 L-22 8 L-50 -15 L-14 -16 Z" fill="#ED6E3F"/>
+    <path d="M0 -50 L14 -16 L50 -15 L22 8 L31 44 L0 24 L-31 44 L-22 8 L-50 -15 L-14 -16 Z" fill="none" stroke="#FFD9A8" stroke-width="3"/>
+  </g>
+</svg>
