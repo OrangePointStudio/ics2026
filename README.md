@@ -1,9 +1,9 @@
 # ICS 2026 · Fusion Vision rozet sayfası
 
 Istanbul Card Show 2026 Sonbahar (14–15 Kasım, Lütfi Kırdar) standı için QR → landing.
-Yayın: GitHub Pages, `site/` klasörü (Actions ile).
+Yayın: GitHub Pages, `docs/` klasörü (main dalı, /docs).
 
-## Ayar (site/index.html → `CONFIG`)
+## Ayar (docs/index.html → `CONFIG`)
 - `playUrl`: Android çıkınca Google Play adresi. `null` iken düğme "yakında" ve kapalı.
 - `badgeLink`: rozet derin bağlantısı. Bugün `fusionvision://vanguard` (build 17 ve öncesinde tanınan rozet).
   Gerçek "ICS 2026" rozeti için uygulamada yeni rozet kimliği gerekir (AchievementManager eşlemesi) → yeni build.
