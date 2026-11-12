@@ -4,11 +4,11 @@
   "cihaz": "iPhone 15, iOS 27.x; varsayılan tarayıcı Chrome; Fusion Vision telefonda yüklü (TestFlight kanalı; sürüm numarası ekrandan okunmadı)",
   "hesap": "Alperen'in kendi hesabı (Merhaba, Alperen Kayalar)",
   "adimlar": [
-    {"adim": "QR görseli (ics26-masa-qr / test için ?s=qr#badge) iOS QR algılamasıyla okutuldu", "sonuc": "GEÇTİ — 'Chrome ile Aç', rozet sayfası Chrome'da açıldı", "kanit": "cihaz-kanit/1-chrome-rozet-dugmesi.jpg"},
-    {"adim": "Chrome'da 'Rozetimi aç'", "sonuc": "GEÇTİ — iOS istemi 'Chrome, Fusion Vision uygulamasını açmak istiyor' → Aç", "kanit": "cihaz-kanit/2-uygulamayi-ac-istemi.jpg"},
-    {"adim": "Uygulama açılışı", "sonuc": "GEÇTİ — 'Yeni bir başarımın kilidini açtın!' uyarısı; Ana sayfa Başarımlar'da Öncü Birlik", "kanit": "cihaz-kanit/3-basarim-kilidi-acildi.jpg"},
-    {"adim": "Göster → Başarımlar ekranı", "sonuc": "GEÇTİ — Öncü Birlik açık (renkli): 'Fusion Vision'ın erken destekçileri için ayrılmış rozet.'", "kanit": "cihaz-kanit/4-basarimlar-oncu-birlik.jpg"},
-    {"adim": "Aynı düğme Dosyalar uygulamasının web önizleyicisinde (uygulama içi tarayıcı benzeri)", "sonuc": "Uygulama AÇILMADI; sayfanın yedek notu doğru çıktı ('Uygulama açılmadıysa önce 1. adımdan indir…')", "kanit": "cihaz-kanit/0-dosyalar-onizleyici-yedek-not.jpg"}
+    {"adim": "QR görseli (ics26-masa-qr / test için ?s=qr#badge) iOS QR algılamasıyla okutuldu", "sonuc": "GEÇTİ — 'Chrome ile Aç', rozet sayfası Chrome'da açıldı", "kanit": "Vault 03-Fusion-Vision/test-kanitlari/ics26f-cihaz-2026-11-12/1-chrome-rozet-dugmesi.jpg"},
+    {"adim": "Chrome'da 'Rozetimi aç'", "sonuc": "GEÇTİ — iOS istemi 'Chrome, Fusion Vision uygulamasını açmak istiyor' → Aç", "kanit": "Vault 03-Fusion-Vision/test-kanitlari/ics26f-cihaz-2026-11-12/2-uygulamayi-ac-istemi.jpg"},
+    {"adim": "Uygulama açılışı", "sonuc": "GEÇTİ — 'Yeni bir başarımın kilidini açtın!' uyarısı; Ana sayfa Başarımlar'da Öncü Birlik", "kanit": "Vault 03-Fusion-Vision/test-kanitlari/ics26f-cihaz-2026-11-12/3-basarim-kilidi-acildi.jpg"},
+    {"adim": "Göster → Başarımlar ekranı", "sonuc": "GEÇTİ — Öncü Birlik açık (renkli): 'Fusion Vision'ın erken destekçileri için ayrılmış rozet.'", "kanit": "Vault 03-Fusion-Vision/test-kanitlari/ics26f-cihaz-2026-11-12/4-basarimlar-oncu-birlik.jpg"},
+    {"adim": "Aynı düğme Dosyalar uygulamasının web önizleyicisinde (uygulama içi tarayıcı benzeri)", "sonuc": "Uygulama AÇILMADI; sayfanın yedek notu doğru çıktı ('Uygulama açılmadıysa önce 1. adımdan indir…')", "kanit": "Vault 03-Fusion-Vision/test-kanitlari/ics26f-cihaz-2026-11-12/0-dosyalar-onizleyici-yedek-not.jpg"}
   ],
   "test_edilmeyen": [
     "Instagram story bağlantısı → IG uygulama içi tarayıcı (story henüz yok). Dosyalar önizleyicisindeki davranış, IG içinde de düğmenin uygulamayı açmayabileceğini gösteriyor; sayfa IG UA'sında 'Safari'de aç' notu gösteriyor.",
