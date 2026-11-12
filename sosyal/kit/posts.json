@@ -1,0 +1,307 @@
+{
+  "surum": "2026-11-12",
+  "not": "Tek kaynak. Hiçbir post yayınlanmadı. Her post ayrı yazılı GO + ONAY-KAYDI (SMK-004). PANO ID'leri bu dosyadaki id'lerdir. Bu kit 8 Kas paketinin (ICS26F-PAKET-SOSYAL-2026-11-08) FV-ICS-03/03s/03b/05a/05b/05c/06 ve OP-007/OP-008 slotlarının YERİNE geçer; ikisi birden basılmaz. Story bağlantısı landing ?s=ig → App Store ct=ics26f-land-ig (eski ics26f-story yerine).",
+  "landing": "https://orangepointstudio.github.io/ics2026/",
+  "postlar": [
+    {
+      "id": "FV-ICS-R1",
+      "sira": 1,
+      "marka": "FV",
+      "yuzey": "ig-fv",
+      "hesap": "@app.fusionvision",
+      "kanal": "Instagram feed",
+      "nereden": "telefon (FV hesabı Mac Chrome'da açık değil)",
+      "zaman": "2026-11-12 19:00",
+      "gun": "Per 12 Kas",
+      "format": "tek görsel 1080x1350",
+      "gorsel": [
+        "fv/FV-ICS-R1_feed_1080x1350.png"
+      ],
+      "gorsel_ham": [
+        "ham/FV-ICS-R1-HAM_feed_1080x1350.png"
+      ],
+      "link": "yok (caption'da link yok)",
+      "metin": "Kartını getir, rozetini al.\n14–15 Kasım'da Istanbul Card Show'dayız, Lütfi Kırdar. Standa uğra, kartını kendi elinle tarat. Masadaki QR seni Öncü Birlik rozetine götürüyor.\nUygulama iPhone'da, iOS 26 ve üstü.\n\n#IstanbulCardShow #ICS2026 #TCG #FusionVision",
+      "alt": "Fusion Vision Öncü Birlik rozeti ve Istanbul Card Show 14–15 Kasım duyurusu.",
+      "notlar": [
+        "ham-mod: SMK-005 ham modu kapsamıyor; tasarım görseli için ayrı karar gerekir. Karar 'ham' olursa gorsel_ham basılır."
+      ]
+    },
+    {
+      "id": "FV-ICS-R1T",
+      "sira": 2,
+      "marka": "FV",
+      "yuzey": "threads-fv",
+      "hesap": "@app.fusionvision",
+      "kanal": "Threads",
+      "nereden": "telefon (Threads uygulaması, FV profili)",
+      "zaman": "2026-11-12 19:20",
+      "gun": "Per 12 Kas",
+      "format": "metin + tek görsel 1080x1350",
+      "gorsel": [
+        "fv/FV-ICS-R1_feed_1080x1350.png"
+      ],
+      "gorsel_ham": [
+        "ham/FV-ICS-R1-HAM_feed_1080x1350.png"
+      ],
+      "link": "yok",
+      "metin": "14–15 Kasım'da Lütfi Kırdar'dayız. Kartını getir, stantta tarat. Masadaki QR'la Öncü Birlik rozetini uygulamada açıyorsun. iPhone'da, iOS 26 ve üstünde çalışıyor.",
+      "alt": "Fusion Vision Öncü Birlik rozeti.",
+      "notlar": [
+        "Threads FV profilinin varlığı anonim doğrulanamadı (giriş duvarı). Profil yoksa bu post atlanır."
+      ]
+    },
+    {
+      "id": "OP-011",
+      "sira": 3,
+      "marka": "OP",
+      "yuzey": "linkedin-op",
+      "hesap": "OrangePointStudio (company/83053772)",
+      "kanal": "LinkedIn şirket sayfası",
+      "nereden": "Mac Chrome (yönetici oturumu açık, 12 Kas doğrulandı) — GO sonrası Claude basabilir",
+      "zaman": "2026-11-12 19:45",
+      "gun": "Per 12 Kas",
+      "format": "metin + görsel 1080x1080",
+      "gorsel": [
+        "op/OP-ICS-01_linkedin_1080x1080.png"
+      ],
+      "link": "yok",
+      "metin": "Bu hafta sonu sahadayız.\nStüdyomuzun ürünü Fusion Vision, 14–15 Kasım'da Istanbul Card Show'da. Lütfi Kırdar Rumeli Salonu.\nÜrünü stantta canlı gösteriyoruz.\n\nDo less. Do it right. Show the process.",
+      "alt": "Orange Point duyurusu: Fusion Vision, Istanbul Card Show 14–15 Kasım.",
+      "notlar": [
+        "linkedin-op kotası haftada 1: W46'nın tek OP LinkedIn postu bu."
+      ]
+    },
+    {
+      "id": "FV-ICS-R2",
+      "sira": 4,
+      "marka": "FV",
+      "yuzey": "ig-fv",
+      "hesap": "@app.fusionvision",
+      "kanal": "Instagram feed",
+      "nereden": "telefon",
+      "zaman": "2026-11-13 12:30",
+      "gun": "Cum 13 Kas",
+      "format": "tek görsel 1080x1350",
+      "gorsel": [
+        "fv/FV-ICS-R2_feed_1080x1350.png"
+      ],
+      "gorsel_ham": [
+        "ham/FV-ICS-R2-HAM_feed_1080x1350.png"
+      ],
+      "link": "yok",
+      "metin": "Rozet üç dokunuş.\n1. Fusion Vision'ı indir.\n2. Giriş yap.\n3. Stanttaki QR'ı okut, \"Rozetimi aç\"a dokun.\nRozet hesabına bağlanır.",
+      "alt": "Öncü Birlik rozetini açmanın üç adımı: indir, giriş yap, rozetini aç.",
+      "notlar": [
+        "ham-mod kararı R1 ile aynı. Ham görsel canlı sayfanın birebir ekran görüntüsü; sayfada 'Ücretsiz indir' yazıyor."
+      ]
+    },
+    {
+      "id": "FV-ICS-R2T",
+      "sira": 5,
+      "marka": "FV",
+      "yuzey": "threads-fv",
+      "hesap": "@app.fusionvision",
+      "kanal": "Threads",
+      "nereden": "telefon",
+      "zaman": "2026-11-13 12:50",
+      "gun": "Cum 13 Kas",
+      "format": "metin",
+      "gorsel": [],
+      "link": "yok",
+      "metin": "Stanttaki QR üç adım: uygulamayı indir, giriş yap, rozetini aç. Rozet hesabında kalıyor.",
+      "notlar": [
+        "Threads profili yoksa atlanır."
+      ]
+    },
+    {
+      "id": "OP-012",
+      "sira": 6,
+      "marka": "OP",
+      "yuzey": "ig-op",
+      "hesap": "@orangepointstudio",
+      "kanal": "Instagram carousel (2 kare)",
+      "nereden": "telefon ya da Mac Chrome (Chrome'da aktif IG hesabı @kayalaralperen — önce OP hesabına geçilir)",
+      "zaman": "2026-11-13 13:15",
+      "gun": "Cum 13 Kas",
+      "format": "carousel 2 × 1080x1350",
+      "gorsel": [
+        "op/OP-ICS-01_feed_1080x1350.png",
+        "op/OP-ICS-02_feed_1080x1350.png"
+      ],
+      "link": "yok",
+      "metin": "Bu hafta sonu Lütfi Kırdar'dayız. Stüdyomuzun ürünü Fusion Vision, Istanbul Card Show'da.",
+      "alt": "Orange Point: Fusion Vision Istanbul Card Show'da; ikinci karede fuar rozeti süreç notu.",
+      "notlar": [
+        "2. kare OP-ICS-02 süreç notu. OP-013 reddedilirse OP-012 de atlanır (ig-op yalnız carousel/reel, tek kare yok).",
+        "ig-op kotası ayda 2 türev: Kasım'ın 1.'si."
+      ]
+    },
+    {
+      "id": "FV-ICS-R3",
+      "sira": 7,
+      "marka": "FV",
+      "yuzey": "ig-fv",
+      "hesap": "@app.fusionvision",
+      "kanal": "Instagram story",
+      "nereden": "telefon",
+      "zaman": "2026-11-14 09:30",
+      "gun": "Cmt 14 Kas",
+      "format": "story 1080x1920 + bağlantı çıkartması",
+      "gorsel": [
+        "fv/FV-ICS-R3_story_1080x1920.png"
+      ],
+      "link": "https://orangepointstudio.github.io/ics2026/?s=ig",
+      "cikartma": "Rozetini al",
+      "metin": "(story, caption yok) Bağlantı çıkartması: https://orangepointstudio.github.io/ics2026/?s=ig · çıkartma metni: Rozetini al · konum: rozet ve QR'ın altındaki boş bant (y≈1480–1680, yanıt çubuğunun üstü). Story'yi \"ICS\" öne çıkanına ekle.",
+      "notlar": [
+        "ham-mod/story kararı: ig-fv format listesinde story yok; tasarım görseli + story için istisna gerekir, değilse gorsel_ham basılır.",
+        "Bağlantı Instagram'ın uygulama içi tarayıcısında açılır; 'Rozetimi aç' düğmesi orada cihazda denenmedi (sayfa iOS IG tarayıcısında 'Safari'de aç' notu gösteriyor).",
+        "Öne çıkan şart: feed caption'ları bu bağlantıya dayanıyor, story 24 saatte düşer."
+      ],
+      "gorsel_ham": [
+        "ham/FV-ICS-R3-HAM_story_1080x1920.png"
+      ]
+    },
+    {
+      "id": "FV-ICS-R3P",
+      "sira": 8,
+      "marka": "FV",
+      "yuzey": "ig-fv",
+      "hesap": "@app.fusionvision",
+      "kanal": "Instagram story",
+      "nereden": "telefon",
+      "zaman": "2026-11-15 09:30",
+      "gun": "Paz 15 Kas",
+      "format": "story 1080x1920 + bağlantı çıkartması",
+      "gorsel": [
+        "fv/FV-ICS-R3_story_1080x1920.png"
+      ],
+      "link": "https://orangepointstudio.github.io/ics2026/?s=ig",
+      "cikartma": "Rozetini al",
+      "metin": "(story, caption yok) Bağlantı çıkartması: https://orangepointstudio.github.io/ics2026/?s=ig · çıkartma metni: Rozetini al · konum: rozet ve QR'ın altındaki boş bant (y≈1480–1680, yanıt çubuğunun üstü). Story'yi \"ICS\" öne çıkanına ekle.",
+      "notlar": [
+        "ham-mod/story kararı: ig-fv format listesinde story yok; tasarım görseli + story için istisna gerekir, değilse gorsel_ham basılır.",
+        "Bağlantı Instagram'ın uygulama içi tarayıcısında açılır; 'Rozetimi aç' düğmesi orada cihazda denenmedi (sayfa iOS IG tarayıcısında 'Safari'de aç' notu gösteriyor)."
+      ],
+      "gorsel_ham": [
+        "ham/FV-ICS-R3-HAM_story_1080x1920.png"
+      ]
+    },
+    {
+      "id": "FV-ICS-06",
+      "sira": 9,
+      "marka": "FV",
+      "yuzey": "ig-fv",
+      "hesap": "@app.fusionvision",
+      "kanal": "Instagram feed",
+      "nereden": "telefon",
+      "zaman": "2026-11-16 12:30",
+      "gun": "Pzt 16 Kas",
+      "format": "tek görsel 1080x1350 (fuarda çekilen gerçek stant fotoğrafı)",
+      "gorsel": [
+        "FUARDA ÇEKİLECEK: stant fotoğrafı, 4:5, filtre yok, yüz yok ya da izinli"
+      ],
+      "link": "yok",
+      "metin": "Istanbul Card Show bitti. 14–15 Kasım, Lütfi Kırdar.\n\nMasaya kartını getiren herkese teşekkürler.\n\nMasaya gelen: [SAYAC-MASA]\nQR okutan: [SAYAC-QR]\nSayılar stanttaki kâğıt çeteleden.\n\nÖncü Birlik rozet sayfası açık kalıyor. Bağlantı ICS öne çıkanında.\n\n@istanbulcardshow ekibine teşekkürler.\n\n#IstanbulCardShow #ICS2026 #FusionVision",
+      "alt": "Istanbul Card Show'daki Fusion Vision masası.",
+      "notlar": [
+        "[SAYAC-MASA] ve [SAYAC-QR] fuarda tutulan kâğıt çeteleden doldurulur; boş kalırsa iki satır ve 'Sayılar...' cümlesi silinir.",
+        "@istanbulcardshow etiketinin doğru hesap olduğu yayından önce telefondan bakılır.",
+        "Stant fotoğrafı yoksa bu post atlanır; aynı gün R4 story teşekkürü taşır (tasarım yedeği yok, ham-mod)."
+      ]
+    },
+    {
+      "id": "FV-ICS-R4",
+      "sira": 10,
+      "marka": "FV",
+      "yuzey": "ig-fv",
+      "hesap": "@app.fusionvision",
+      "kanal": "Instagram story",
+      "nereden": "telefon",
+      "zaman": "2026-11-16 12:35",
+      "gun": "Pzt 16 Kas",
+      "format": "story 1080x1920 + bağlantı çıkartması",
+      "gorsel": [
+        "fv/FV-ICS-R4_story_1080x1920.png"
+      ],
+      "link": "https://orangepointstudio.github.io/ics2026/?s=ig",
+      "cikartma": "Rozet sayfası",
+      "metin": "(story, caption yok) Bağlantı çıkartması: https://orangepointstudio.github.io/ics2026/?s=ig · çıkartma metni: Rozet sayfası · konum: rozetin altı (y≈1500–1680). Öne çıkana ekle.",
+      "notlar": [
+        "ham-mod/story kararı: ig-fv format listesinde story yok; tasarım görseli + story için istisna gerekir, değilse gorsel_ham basılır.",
+        "Bağlantı Instagram'ın uygulama içi tarayıcısında açılır; 'Rozetimi aç' düğmesi orada cihazda denenmedi (sayfa iOS IG tarayıcısında 'Safari'de aç' notu gösteriyor)."
+      ],
+      "gorsel_ham": [
+        "ham/FV-ICS-R4-HAM_story_1080x1920.png"
+      ]
+    },
+    {
+      "id": "FV-ICS-06T",
+      "sira": 11,
+      "marka": "FV",
+      "yuzey": "threads-fv",
+      "hesap": "@app.fusionvision",
+      "kanal": "Threads",
+      "nereden": "telefon",
+      "zaman": "2026-11-16 12:55",
+      "gun": "Pzt 16 Kas",
+      "format": "metin",
+      "gorsel": [],
+      "link": "yok",
+      "metin": "Fuar bitti. Masaya gelen [SAYAC-MASA] kişi, QR okutan [SAYAC-QR], stanttaki kâğıt çeteleden. Rozet sayfası Instagram'daki ICS öne çıkanında duruyor.",
+      "notlar": [
+        "Sayılar yoksa ikinci cümle çıkar.",
+        "Threads profili yoksa atlanır."
+      ]
+    },
+    {
+      "id": "OP-013",
+      "sira": 12,
+      "marka": "OP",
+      "yuzey": "linkedin-op",
+      "hesap": "OrangePointStudio (company/83053772)",
+      "kanal": "LinkedIn şirket sayfası",
+      "nereden": "Mac Chrome — GO sonrası Claude basabilir",
+      "zaman": "2026-11-16 13:20",
+      "gun": "Pzt 16 Kas",
+      "format": "metin + görsel 1080x1080",
+      "gorsel": [
+        "op/OP-ICS-02_linkedin_1080x1080.png"
+      ],
+      "link": "yok",
+      "metin": "Fuar rozeti böyle çalışıyor.\nMasadaki QR tek sayfalık bir siteye, site de ürünün içindeki rozete gidiyor.\nMasa, broşür ve story için ayrı QR bastık. Mağaza bu üç kaynağı ayrı sayıyor.\nSayfada çerez ve takip kodu yok. Ölçüm mağazanın kendi kampanya raporundan.\nHangi yüzeyin ne getirdiğini ölçüm oturunca burada yazacağız.\n\nOP-FV · Do less. Do it right. Show the process.",
+      "alt": "Fuar rozeti akışı: masa QR'ı, tek ekranlık sayfa, uygulama içi rozet.",
+      "notlar": [
+        "W47'nin OP LinkedIn postu (kota haftada 1).",
+        "Süreç notu, kurumsal haber çerçevesinin bir adım dışında: ayrı yayın kararı (SMK-005)."
+      ]
+    }
+  ],
+  "yedek": [
+    {
+      "id": "FV-ICS-R5",
+      "kanal": "Instagram FV feed",
+      "durum": "BEKLİYOR: ICS rozetli güncelleme mağazaya çıkınca. Görsel 'geliyor' dilinde; o gün 'geldi' diliyle yeniden üretilir, badgeLink ve sayfadaki 'Sırada' bölümü güncellenir. 22 Kas'tan sonra ICS istisnası kapalı, yeni karar gerekir.",
+      "metin": "ICS 2026 promo rozeti güncellemeyle geldi. Fuarda masaya gelenler için kart rozeti. Uygulamayı güncelle, stant QR'ını bir kez daha okut."
+    },
+    {
+      "id": "FV-ICS-R1X",
+      "kanal": "X (EN)",
+      "durum": "KULLANILMAZ — FV X hesabı yok: @fusionvisionapp boş, @appfusionvision sahibi bilinmiyor (#481.11 güvenlik kalemi, 12 Kas anonim ölçüm)",
+      "metin": "We're at Istanbul Card Show, Nov 14–15. Bring a card, scan it at our booth, and unlock the Vanguard badge in Fusion Vision."
+    },
+    {
+      "id": "FV-ICS-R1B",
+      "kanal": "Bluesky (EN)",
+      "durum": "KULLANILMAZ — FV Bluesky hesabı yok (fusionvision.app / fusionvision.bsky.social: Profile not found, 12 Kas)",
+      "metin": "Fusion Vision is at Istanbul Card Show, Nov 14–15, Lütfi Kırdar. Scan your own card at the booth. The QR on the table unlocks the Vanguard badge in the app."
+    },
+    {
+      "id": "OP-ICS-03",
+      "kanal": "Instagram OP story",
+      "durum": "ÇIKARILDI — ig-op format listesinde story yok (carousel, reel). Kural istisnası yazılırsa geri alınır.",
+      "metin": "(story) op/OP-ICS-03_story_1080x1920.png"
+    }
+  ]
+}

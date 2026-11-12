@@ -1,0 +1,28 @@
+{
+  "FV-ICS-R1": [],
+  "FV-ICS-R1T": [],
+  "OP-011": [],
+  "FV-ICS-R2": [],
+  "FV-ICS-R2T": [],
+  "OP-012": [],
+  "FV-ICS-R3": [],
+  "FV-ICS-R3P": [],
+  "FV-ICS-06": [
+    {
+      "seviye": "BİLGİ",
+      "mesaj": "yer tutucu var — yayından önce doldurulur"
+    },
+    {
+      "seviye": "BİLGİ",
+      "mesaj": "görsel fuarda çekilecek"
+    }
+  ],
+  "FV-ICS-R4": [],
+  "FV-ICS-06T": [
+    {
+      "seviye": "BİLGİ",
+      "mesaj": "yer tutucu var — yayından önce doldurulur"
+    }
+  ],
+  "OP-013": []
+}

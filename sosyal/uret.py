@@ -99,7 +99,7 @@ ISLER = {
     ("fv", "FV-ICS-R2_feed_1080x1350"): (1080, 1350, FV, "krem", f"""
 <div class="pad"><div class="kunye"><i></i>Fuar rozeti · 3 adım</div>
 <div class="baslik" style="font-size:92px">Rozet<br><span class="e">üç dokunuş.</span></div>
-<div class="adim"><b>1</b><div><h3>İndir</h3><p>Fusion Vision, App Store'da ücretsiz.</p></div></div>
+<div class="adim"><b>1</b><div><h3>İndir</h3><p>App Store'da. iPhone, iOS 26 ve üstü.</p></div></div>
 <div class="adim"><b>2</b><div><h3>Giriş yap</h3><p>Rozet hesabına bağlanır.</p></div></div>
 <div class="adim"><b>3</b><div><h3>Rozetini aç</h3><p>Stanttaki QR'ı okut, düğmeye dokun.</p></div></div></div>
 <img class="rozet-img" src="{ROZET}" style="width:430px;right:40px;bottom:50px">"""),
@@ -133,10 +133,10 @@ ISLER = {
 <div class="baslik" style="font-size:84px">Fuar rozeti<br><span class="e">böyle çalışıyor.</span></div>
 <div class="akis">
  <div class="kutu"><b>01</b><h4>QR</h4><p>Masada durur. Kaynak etiketi taşır.</p></div><div class="ok">→</div>
- <div class="kutu"><b>02</b><h4>Sayfa</h4><p>Tek ekran. Çerez ve takip kodu yok.</p></div><div class="ok">→</div>
+ <div class="kutu"><b>02</b><h4>Sayfa</h4><p>Tek sayfa. Çerez ve takip kodu yok.</p></div><div class="ok">→</div>
  <div class="kutu"><b>03</b><h4>Rozet</h4><p>Ürün içinde hesaba işlenir.</p></div>
 </div>
-<div class="alt" style="font-size:30px;margin-top:44px">Hangi yüzeyin (masa, broşür, story) ne getirdiğini fuardan bir hafta sonra yazacağız.</div></div>
+<div class="alt" style="font-size:30px;margin-top:44px">Hangi yüzeyin (masa, broşür, story) ne getirdiğini ölçüm oturunca burada yazacağız.</div></div>
 <div class="motto"><span>Do less. Do it right. Show the process.</span><span>OP-FV</span></div>"""),
 
     ("op", "OP-ICS-03_story_1080x1920"): (1080, 1920, OP, "opk", f"""
@@ -161,7 +161,7 @@ ISLER = {
 <div class="baslik" style="font-size:72px">Fuar rozeti<br><span class="e">böyle çalışıyor.</span></div>
 <div class="akis" style="margin-top:50px">
  <div class="kutu" style="min-height:220px"><b>01</b><h4>QR</h4><p>Masada durur. Kaynak etiketi taşır.</p></div><div class="ok">→</div>
- <div class="kutu" style="min-height:220px"><b>02</b><h4>Sayfa</h4><p>Tek ekran. Çerez ve takip kodu yok.</p></div><div class="ok">→</div>
+ <div class="kutu" style="min-height:220px"><b>02</b><h4>Sayfa</h4><p>Tek sayfa. Çerez ve takip kodu yok.</p></div><div class="ok">→</div>
  <div class="kutu" style="min-height:220px"><b>03</b><h4>Rozet</h4><p>Ürün içinde hesaba işlenir.</p></div>
 </div></div>
 <div class="motto" style="bottom:64px"><span>Do less. Do it right. Show the process.</span><span>OP-FV</span></div>"""),

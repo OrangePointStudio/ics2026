@@ -1,0 +1,35 @@
+<!doctype html><html lang="tr"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Onay FV-ICS-R2</title><style>
+:root{--bg:#f6f3ee;--yuzey:#ffffff;--metin:#1b1b1d;--soluk:#5f6268;--cizgi:#e2ddd4;--vurgu:#d9531e;--hata:#b3261e;--uyari:#8a5a00;--ok:#1f7a3a;--kod:#f1ece4}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0e0e10;--yuzey:#18181b;--metin:#f2efe9;--soluk:#a3a6ad;--cizgi:#2c2c31;--vurgu:#ff7a45;--hata:#ff8a80;--uyari:#ffcc66;--ok:#7ddc9a;--kod:#202024;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0e0e10;--yuzey:#18181b;--metin:#f2efe9;--soluk:#a3a6ad;--cizgi:#2c2c31;--vurgu:#ff7a45;--hata:#ff8a80;--uyari:#ffcc66;--ok:#7ddc9a;--kod:#202024;color-scheme:dark}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--metin);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Inter",system-ui,sans-serif}
+main{max-width:980px;margin:0 auto;padding-block:24px 64px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.kart>div{min-width:0}
+h1{font-size:24px;margin:0 0 4px}h2{font-size:18px;margin:32px 0 10px}.soluk{color:var(--soluk)}
+.kart{background:var(--yuzey);border:1px solid var(--cizgi);border-radius:14px;padding:16px;margin:14px 0;display:grid;grid-template-columns:200px 1fr;gap:16px}
+@media (max-width:640px){.kart{grid-template-columns:1fr}}
+.kart img{width:100%;border-radius:8px;border:1px solid var(--cizgi);display:block}
+.gorseller{display:flex;flex-direction:column;gap:8px}
+.ust{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:baseline}.ust b{font-size:16px}
+.etiket{font-size:12px;padding:2px 8px;border-radius:99px;border:1px solid var(--cizgi);color:var(--soluk)}
+.etiket.fv{color:var(--vurgu);border-color:var(--vurgu)}
+pre{white-space:pre-wrap;word-break:break-word;background:var(--kod);padding:12px;border-radius:8px;margin:10px 0 6px;font:14px/1.5 ui-monospace,SFMono-Regular,Menlo,monospace}
+button{font:inherit;font-size:13px;padding:6px 12px;border-radius:8px;border:1px solid var(--cizgi);background:var(--yuzey);color:var(--metin);cursor:pointer}
+button:active{transform:translateY(1px)}
+ul.d{margin:6px 0 0;padding-left:18px;font-size:13px}.HATA{color:var(--hata)}.UYARI{color:var(--uyari)}.BİLGİ{color:var(--soluk)}.ok{color:var(--ok);font-size:13px}
+table{border-collapse:collapse;width:100%;font-size:14px}td,th{border-bottom:1px solid var(--cizgi);padding:6px 8px;text-align:left;vertical-align:top}
+.kutu{background:var(--yuzey);border:1px solid var(--cizgi);border-radius:14px;padding:14px 16px}
+.tablo-sar{overflow-x:auto}
+</style></head><body><main><h1>Onay · FV-ICS-R2</h1><p class='soluk'>Bu sayfa görülmeden post basılmaz (KR-5). GO yazılı verilir ve ONAY-KAYDI.json'a işlenir.</p><section class="kart" id="FV-ICS-R2"><div class="gorseller"><img alt="Öncü Birlik rozetini açmanın üç adımı: indir, giriş yap, rozetini aç." src="../gorsel/FV-ICS-R2_feed_1080x1350.png"><img alt="ham" src="../gorsel/FV-ICS-R2-HAM_feed_1080x1350.png"><span class="soluk" style="font-size:12px">ham-mod alternatifi</span></div>
+<div><div class="ust"><b>4. FV-ICS-R2</b><span class="etiket fv">FV · Instagram feed</span><span class="soluk">Cum 13 Kas · 12:30</span></div>
+<div class="soluk" style="font-size:13px">@app.fusionvision · telefon · tek görsel 1080x1350</div>
+<pre id="m-FV-ICS-R2">Rozet üç dokunuş.
+1. Fusion Vision&#x27;ı indir.
+2. Giriş yap.
+3. Stanttaki QR&#x27;ı okut, &quot;Rozetimi aç&quot;a dokun.
+Rozet hesabına bağlanır.</pre>
+<div style="display:flex;gap:10px;align-items:center"><button onclick="kopyala('m-FV-ICS-R2',this)">Metni kopyala</button><span class="soluk" style="font-size:13px" data-say="m-FV-ICS-R2"></span></div>
+<ul class="d"><li class="ok">otomatik denetim temiz</li></ul><ul class="d soluk"><li>ham-mod kararı R1 ile aynı. Ham görsel canlı sayfanın birebir ekran görüntüsü; sayfada &#x27;Ücretsiz indir&#x27; yazıyor.</li></ul></div></section></main><script>
+function kopyala(id,btn){const t=document.getElementById(id).innerText;navigator.clipboard.writeText(t).then(()=>{const o=btn.textContent;btn.textContent='Kopyalandı';setTimeout(()=>btn.textContent=o,1400)}).catch(()=>{const r=document.createRange();r.selectNodeContents(document.getElementById(id));const s=getSelection();s.removeAllRanges();s.addRange(r)})}
+document.querySelectorAll('[data-say]').forEach(e=>{const t=document.getElementById(e.dataset.say).innerText;e.textContent=[...t].length+' karakter'});
+</script></body></html>
