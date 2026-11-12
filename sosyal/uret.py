@@ -99,7 +99,7 @@ ISLER = {
     ("fv", "FV-ICS-R2_feed_1080x1350"): (1080, 1350, FV, "krem", f"""
 <div class="pad"><div class="kunye"><i></i>Fuar rozeti · 3 adım</div>
 <div class="baslik" style="font-size:92px">Rozet<br><span class="e">üç dokunuş.</span></div>
-<div class="adim"><b>1</b><div><h3>İndir</h3><p>App Store'da. iPhone, iOS 26 ve üstü.</p></div></div>
+<div class="adim"><b>1</b><div><h3>İndir</h3><p>App Store'da. iPhone, iOS 18 ve üstü.</p></div></div>
 <div class="adim"><b>2</b><div><h3>Giriş yap</h3><p>Rozet hesabına bağlanır.</p></div></div>
 <div class="adim"><b>3</b><div><h3>Rozetini aç</h3><p>Stanttaki QR'ı okut, düğmeye dokun.</p></div></div></div>
 <img class="rozet-img" src="{ROZET}" style="width:430px;right:40px;bottom:50px">"""),
