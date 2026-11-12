@@ -1,0 +1,56 @@
+{
+  "zaman": "2026-11-12T05:56:04.852Z",
+  "qr": [
+    {
+      "ad": "ics26-qr",
+      "url": "https://orangepointstudio.github.io/ics2026/?s=qr",
+      "sayfa": 200,
+      "baslik": "Fusion Vision · ICS 2026",
+      "appStore": "https://apps.apple.com/app/apple-store/id6756178073?pt=128345712&ct=ics26f-land-qr&mt=8"
+    },
+    {
+      "ad": "ics26-flyer",
+      "url": "https://orangepointstudio.github.io/ics2026/?s=flyer",
+      "sayfa": 200,
+      "baslik": "Fusion Vision · ICS 2026",
+      "appStore": "https://apps.apple.com/app/apple-store/id6756178073?pt=128345712&ct=ics26f-land-flyer&mt=8"
+    },
+    {
+      "ad": "ics26-ig",
+      "url": "https://orangepointstudio.github.io/ics2026/?s=ig",
+      "sayfa": 200,
+      "baslik": "Fusion Vision · ICS 2026",
+      "appStore": "https://apps.apple.com/app/apple-store/id6756178073?pt=128345712&ct=ics26f-land-ig&mt=8"
+    }
+  ],
+  "linkler": {
+    "https://apps.apple.com/app/apple-store/id6756178073?pt=128345712&ct=ics26f-land-qr&mt=8": {
+      "durum": 301,
+      "yonlendirme": "itms-appss://apps.apple.com/app/apple-store/id6756178073?mt=8",
+      "sonDurum": 301,
+      "uygulamaAdi": false,
+      "ctKorundu": false
+    },
+    "https://www.instagram.com/app.fusionvision/": {
+      "durum": 200,
+      "yonlendirme": null,
+      "sonDurum": 200,
+      "uygulamaAdi": true,
+      "ctKorundu": false
+    },
+    "https://www.instagram.com/orangepointstudio/": {
+      "durum": 200,
+      "yonlendirme": null,
+      "sonDurum": 200,
+      "uygulamaAdi": false,
+      "ctKorundu": false
+    },
+    "https://fusionvision.app/privacy": {
+      "durum": 200,
+      "yonlendirme": null,
+      "sonDurum": 200,
+      "uygulamaAdi": true,
+      "ctKorundu": false
+    }
+  }
+}
