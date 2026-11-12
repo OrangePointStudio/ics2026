@@ -10,9 +10,10 @@ KOK = Path(__file__).resolve().parent.parent
 CIKTI = KOK / "sosyal" / "cikti"
 CHROME = "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
 FONT = (KOK / "tools" / "fonts").as_uri()
-ROZET = (KOK / "src" / "rozet-ics26-1024.png").as_uri()
+ROZET = (KOK / "docs" / "assets" / "rozet-oncu-birlik.png").as_uri()
+ROZET_ICS = (KOK / "src" / "rozet-ics26-1024.png").as_uri()
 LOGO = (KOK / "docs" / "assets" / "fv-logo.jpg").as_uri()
-QR_IG = (KOK / "qr" / "ics26-ig-1024.png").as_uri()
+QR_IG = (KOK / "qr" / "ics26-ig-buyuk.png").as_uri()
 
 ORTAK = f"""
 @font-face{{font-family:Unbounded;src:url('{FONT}/Unbounded.ttf');font-weight:200 900}}
@@ -47,7 +48,7 @@ FV = """
 .adim b{width:96px;height:96px;border-radius:50%;display:grid;place-items:center;background:var(--or);color:var(--ink);font:800 44px/1 Unbounded}
 .adim h3{font:800 50px/1.05 Unbounded;letter-spacing:-.03em}
 .adim p{font:500 30px/1.3 Inter;margin-top:8px;color:#4a4640}
-.qrkutu{position:absolute;background:#fff;border-radius:36px;padding:26px;box-shadow:0 30px 80px rgba(0,0,0,.35)}
+.qrkutu{position:absolute;z-index:3;background:#fff;border-radius:36px;padding:26px;box-shadow:0 30px 80px rgba(0,0,0,.35)}
 .qrkutu img{display:block}
 .qrkutu div{font:700 22px/1.2 Unbounded;letter-spacing:.12em;text-align:center;color:var(--ink);margin-top:14px;text-transform:uppercase}
 .fv-logo{position:absolute;mix-blend-mode:screen;filter:brightness(1.05) contrast(1.2)}
@@ -74,6 +75,7 @@ OP = """
 .kutu h4{font:800 40px/1.05 Inter;letter-spacing:-.03em;margin-top:18px}
 .kutu p{font:500 24px/1.3 Inter;margin-top:12px;color:#403D39}
 .ok{font:800 50px/1 Inter;color:var(--op)}
+.fv-logo{position:absolute;mix-blend-mode:screen;filter:brightness(1.05) contrast(1.2)}
 """
 
 
@@ -89,9 +91,9 @@ ISLER = {
     ("fv", "FV-ICS-R1_feed_1080x1350"): (1080, 1350, FV, "koyu", f"""
 <div class="pad"><div class="kunye"><i></i>ICS 2026 · 14–15 Kasım</div>
 <div class="baslik">Kartını getir.<br><span class="e">Rozetini al.</span></div>
-<div class="alt">Standımıza uğra, kartını tarat. Fuar rozeti uygulamada seni bekliyor.</div></div>
-<img class="rozet-img" src="{ROZET}" style="width:760px;left:250px;top:560px;transform:rotate(4deg)">
-<div class="sticker" style="background:var(--or);color:var(--ink);left:70px;top:820px">ICS<span>PROMO<br>ROZET</span></div>
+<div class="alt">Standımıza uğra, kartını tarat. Öncü Birlik rozeti uygulamada seni bekliyor.</div></div>
+<img class="rozet-img" src="{ROZET}" style="width:700px;left:300px;top:560px">
+<div class="sticker" style="background:var(--or);color:var(--ink);left:84px;top:780px">ÖNCÜ<span>BİRLİK<br>ROZETİ</span></div>
 <div class="serit" style="bottom:70px;transform:rotate(-3deg)">{SERIT}</div>"""),
 
     ("fv", "FV-ICS-R2_feed_1080x1350"): (1080, 1350, FV, "krem", f"""
@@ -100,58 +102,84 @@ ISLER = {
 <div class="adim"><b>1</b><div><h3>İndir</h3><p>Fusion Vision, App Store'da ücretsiz.</p></div></div>
 <div class="adim"><b>2</b><div><h3>Giriş yap</h3><p>Rozet hesabına bağlanır.</p></div></div>
 <div class="adim"><b>3</b><div><h3>Rozetini aç</h3><p>Stanttaki QR'ı okut, düğmeye dokun.</p></div></div></div>
-<img class="rozet-img" src="{ROZET}" style="width:440px;right:20px;bottom:40px;transform:rotate(8deg)">"""),
+<img class="rozet-img" src="{ROZET}" style="width:430px;right:40px;bottom:50px">"""),
 
     ("fv", "FV-ICS-R3_story_1080x1920"): (1080, 1920, FV, "turuncu", f"""
-<div class="pad" style="top:200px"><div class="kunye"><i></i>Lütfi Kırdar · ICS 2026</div>
+<div class="pad" style="top:290px"><div class="kunye"><i></i>Lütfi Kırdar · ICS 2026</div>
 <div class="baslik" style="font-size:118px">Bugün<br><span class="e">stanttayız.</span></div>
-<div class="alt">Kartını tarat, fuar rozetini al. QR'ı okut ya da bağlantıya dokun.</div></div>
-<img class="rozet-img" src="{ROZET}" style="width:720px;left:-40px;top:760px;transform:rotate(-6deg)">
-<div class="qrkutu" style="right:84px;top:1010px;transform:rotate(4deg)"><img src="{QR_IG}" width="300" height="300"><div>Rozetini al</div></div>
-<div class="altbilgi" style="left:84px;bottom:300px;color:var(--ink)">Bağlantı çıkartması buraya ↓</div>"""),
+<div class="alt">Kartını tarat, Öncü Birlik rozetini al. QR'ı okut ya da bağlantıya dokun.</div></div>
+<img class="rozet-img" src="{ROZET}" style="width:600px;left:20px;top:900px">
+<div class="qrkutu" style="right:84px;top:980px;transform:rotate(4deg)"><img src="{QR_IG}" width="290" height="290"><div>Rozetini al</div></div>"""),
 
     ("fv", "FV-ICS-R4_story_1080x1920"): (1080, 1920, FV, "koyu", f"""
-<img class="fv-logo" src="{LOGO}" style="width:560px;left:260px;top:170px">
-<div class="pad" style="top:760px;text-align:center"><div class="kunye" style="justify-content:center"><i></i>14–15 Kasım · ICS 2026</div>
+<img class="fv-logo" src="{LOGO}" style="width:520px;left:280px;top:270px">
+<div class="pad" style="top:820px;text-align:center"><div class="kunye" style="justify-content:center"><i></i>14–15 Kasım · ICS 2026</div>
 <div class="baslik" style="font-size:96px">Masaya gelen<br><span class="e">herkese teşekkürler.</span></div>
-<div class="alt" style="margin:30px auto 0">Rozetini almadıysan sayfa hâlâ açık. Bağlantı aşağıda.</div></div>
-<img class="rozet-img" src="{ROZET}" style="width:520px;left:280px;bottom:170px">"""),
+<div class="alt" style="margin:30px auto 0">Rozetini almadıysan sayfa hâlâ açık.</div></div>
+<img class="rozet-img" src="{ROZET}" style="width:330px;left:375px;top:1250px">"""),
 
-    # ---------- ORANGE POINT ----------
+    # ---------- ORANGE POINT (yalnız kurumsal haber çerçevesi; FV CTA/link yok) ----------
     ("op", "OP-ICS-01_feed_1080x1350"): (1080, 1350, OP, "opk", f"""
 <div class="pad"><div class="marka"><span>ORANGE POINT<i></i></span><small>stüdyo · lab · akademi</small></div>
 <div class="kod">OP-FV · ICS 2026</div>
 <div class="baslik">Bu hafta sonu<br><span class="e">sahadayız.</span></div>
-<div class="alt">Fusion Vision ile Istanbul Card Show'dayız. 14–15 Kasım, Lütfi Kırdar. Uygulamayı stantta canlı gösteriyoruz.</div></div>
-<img class="rozet-img" src="{ROZET}" style="position:absolute;width:470px;right:60px;top:690px;transform:rotate(6deg);filter:drop-shadow(0 30px 60px rgba(0,0,0,.5))">
+<div class="alt">Stüdyomuzun ürünü Fusion Vision, Istanbul Card Show'da. 14–15 Kasım, Lütfi Kırdar.</div></div>
+<img class="fv-logo" src="{LOGO}" style="width:500px;right:90px;top:700px;mix-blend-mode:screen">
 <div class="motto"><span>Do less. Do it right. Show the process.</span><span>@orangepointstudio</span></div>"""),
 
     ("op", "OP-ICS-02_feed_1080x1350"): (1080, 1350, OP, "opa", f"""
 <div class="pad"><div class="marka"><span>ORANGE POINT<i></i></span><small>stüdyo · lab · akademi</small></div>
 <div class="kod">OP-FV · SÜREÇ NOTU</div>
-<div class="baslik" style="font-size:84px">Bir fuar rozeti<br><span class="e">nasıl çalışır?</span></div>
+<div class="baslik" style="font-size:84px">Fuar rozeti<br><span class="e">böyle çalışıyor.</span></div>
 <div class="akis">
  <div class="kutu"><b>01</b><h4>QR</h4><p>Masada durur. Kaynak etiketi taşır.</p></div><div class="ok">→</div>
- <div class="kutu"><b>02</b><h4>Sayfa</h4><p>İndirme, giriş, rozet. Çerez yok.</p></div><div class="ok">→</div>
- <div class="kutu"><b>03</b><h4>Uygulama</h4><p>Rozet hesaba işlenir.</p></div>
+ <div class="kutu"><b>02</b><h4>Sayfa</h4><p>Tek ekran. Çerez ve takip kodu yok.</p></div><div class="ok">→</div>
+ <div class="kutu"><b>03</b><h4>Rozet</h4><p>Ürün içinde hesaba işlenir.</p></div>
 </div>
-<div class="alt" style="font-size:30px;margin-top:44px">Hangi masa kaç indirme getirdi, fuardan bir hafta sonra ölçüp yazacağız.</div></div>
+<div class="alt" style="font-size:30px;margin-top:44px">Hangi yüzeyin (masa, broşür, story) ne getirdiğini fuardan bir hafta sonra yazacağız.</div></div>
 <div class="motto"><span>Do less. Do it right. Show the process.</span><span>OP-FV</span></div>"""),
 
     ("op", "OP-ICS-03_story_1080x1920"): (1080, 1920, OP, "opk", f"""
-<div class="pad" style="top:170px"><div class="marka"><span>ORANGE POINT<i></i></span><small>stüdyo · lab · akademi</small></div>
-<div class="kod" style="margin-top:110px">OP-FV · ICS 2026</div>
+<div class="pad" style="top:280px"><div class="marka"><span>ORANGE POINT<i></i></span><small>stüdyo · lab · akademi</small></div>
+<div class="kod" style="margin-top:90px">OP-FV · ICS 2026</div>
 <div class="baslik" style="font-size:110px">14–15<br>Kasım.<br><span class="e">Lütfi Kırdar.</span></div>
-<div class="alt">Fusion Vision standındayız. Gel, kartını tarat.</div></div>
-<img class="rozet-img" src="{ROZET}" style="position:absolute;width:640px;left:220px;top:1030px;transform:rotate(-5deg);filter:drop-shadow(0 30px 60px rgba(0,0,0,.5))">
-<div class="motto"><span>Do less. Do it right. Show the process.</span><span>@orangepointstudio</span></div>"""),
+<div class="alt">Fusion Vision ile Istanbul Card Show'dayız.</div></div>
+<img class="fv-logo" src="{LOGO}" style="width:430px;left:325px;top:1000px;mix-blend-mode:screen">
+<div class="motto" style="bottom:380px"><span>Do less. Do it right. Show the process.</span><span>@orangepointstudio</span></div>"""),
+
+    ("op", "OP-ICS-01_linkedin_1080x1080"): (1080, 1080, OP, "opk", f"""
+<div class="pad" style="top:84px"><div class="marka"><span>ORANGE POINT<i></i></span><small>stüdyo · lab · akademi</small></div>
+<div class="kod" style="margin-top:56px">OP-FV · ICS 2026</div>
+<div class="baslik" style="font-size:88px">Bu hafta sonu<br><span class="e">sahadayız.</span></div>
+<div class="alt" style="font-size:32px;max-width:560px">Stüdyomuzun ürünü Fusion Vision, Istanbul Card Show'da. 14–15 Kasım, Lütfi Kırdar.</div></div>
+<img class="fv-logo" src="{LOGO}" style="width:380px;right:70px;top:500px;mix-blend-mode:screen">
+<div class="motto" style="bottom:64px"><span>Do less. Do it right. Show the process.</span><span>@orangepointstudio</span></div>"""),
+
+    ("op", "OP-ICS-02_linkedin_1080x1080"): (1080, 1080, OP, "opa", f"""
+<div class="pad" style="top:84px"><div class="marka"><span>ORANGE POINT<i></i></span><small>stüdyo · lab · akademi</small></div>
+<div class="kod" style="margin-top:56px">OP-FV · SÜREÇ NOTU</div>
+<div class="baslik" style="font-size:72px">Fuar rozeti<br><span class="e">böyle çalışıyor.</span></div>
+<div class="akis" style="margin-top:50px">
+ <div class="kutu" style="min-height:220px"><b>01</b><h4>QR</h4><p>Masada durur. Kaynak etiketi taşır.</p></div><div class="ok">→</div>
+ <div class="kutu" style="min-height:220px"><b>02</b><h4>Sayfa</h4><p>Tek ekran. Çerez ve takip kodu yok.</p></div><div class="ok">→</div>
+ <div class="kutu" style="min-height:220px"><b>03</b><h4>Rozet</h4><p>Ürün içinde hesaba işlenir.</p></div>
+</div></div>
+<div class="motto" style="bottom:64px"><span>Do less. Do it right. Show the process.</span><span>OP-FV</span></div>"""),
 
     # ---------- OG (sayfa paylaşım önizlemesi) ----------
     ("og", "og_1200x630"): (1200, 630, FV, "koyu", f"""
 <div class="pad" style="top:96px;left:76px"><div class="kunye" style="font-size:22px"><i></i>ICS 2026 · 14–15 Kasım</div>
-<div class="baslik" style="font-size:76px">Fuar rozetin<br><span class="e">seni bekliyor.</span></div>
+<div class="baslik" style="font-size:72px">Öncü Birlik<br><span class="e">rozetin hazır.</span></div>
 <div class="alt" style="font-size:28px;max-width:600px">Istanbul Card Show · Lütfi Kırdar · Fusion Vision</div></div>
-<img class="rozet-img" src="{ROZET}" style="width:560px;right:20px;top:40px;transform:rotate(5deg)">"""),
+<img class="rozet-img" src="{ROZET}" style="width:500px;right:50px;top:65px">"""),
+
+    # ---------- Sonraki build: ICS promo kart rozeti duyurusu ----------
+    ("fv", "FV-ICS-R5_sonra_feed_1080x1350"): (1080, 1350, FV, "koyu", f"""
+<div class="pad"><div class="kunye"><i></i>Güncellemeyle geliyor</div>
+<div class="baslik">ICS 2026<br><span class="e">promo rozeti.</span></div>
+<div class="alt">Fuarda masaya gelenlere özel kart rozeti. Güncelleme çıkınca duyuracağız.</div></div>
+<img class="rozet-img" src="{ROZET_ICS}" style="width:720px;left:280px;top:560px;transform:rotate(4deg)">
+<div class="serit" style="bottom:70px;transform:rotate(-3deg)">{SERIT}</div>"""),
 }
 
 

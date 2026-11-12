@@ -1,29 +1,30 @@
 {
-  "uretim": "2026-11-11T20:31:21.383Z",
+  "uretim": "2026-11-12T05:53:51.272Z",
   "arac": "qrcode@1.5.4 ECC H margin 4 + jsqr@1.4.0",
+  "baski": "Matbaaya SVG gönder. En küçük kenar: masa/tent 4 cm, broşür 3 cm, poster 15 cm. Sessiz alan (beyaz kenar) kırpılmaz.",
   "set": [
     {
       "ad": "ics26-qr",
       "url": "https://orangepointstudio.github.io/ics2026/?s=qr",
       "nereye": "Stant ana QR (masa, tent, poster)",
-      "decode1024": "EŞLEŞTİ",
-      "decode300": "EŞLEŞTİ",
+      "decode_buyuk": "EŞLEŞTİ (1176px)",
+      "decode_kucuk": "EŞLEŞTİ (392px)",
       "version": 6
     },
     {
       "ad": "ics26-flyer",
       "url": "https://orangepointstudio.github.io/ics2026/?s=flyer",
       "nereye": "Broşür / el ilanı",
-      "decode1024": "EŞLEŞTİ",
-      "decode300": "EŞLEŞTİ",
+      "decode_buyuk": "EŞLEŞTİ (1176px)",
+      "decode_kucuk": "EŞLEŞTİ (392px)",
       "version": 6
     },
     {
       "ad": "ics26-ig",
       "url": "https://orangepointstudio.github.io/ics2026/?s=ig",
       "nereye": "Instagram story bağlantısı / görsel içi QR",
-      "decode1024": "EŞLEŞTİ",
-      "decode300": "EŞLEŞTİ",
+      "decode_buyuk": "EŞLEŞTİ (1176px)",
+      "decode_kucuk": "EŞLEŞTİ (392px)",
       "version": 6
     }
   ]
