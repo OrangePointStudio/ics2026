@@ -24,7 +24,7 @@
       "metin": "Kartını getir, rozetini al.\n14–15 Kasım'da Istanbul Card Show'dayız, Lütfi Kırdar. Standa uğra, kartını kendi elinle tarat. Masadaki QR seni Öncü Birlik rozetine götürüyor.\nUygulama iPhone'da, iOS 26 ve üstü.\n\n#IstanbulCardShow #ICS2026 #TCG #FusionVision",
       "alt": "Fusion Vision Öncü Birlik rozeti ve Istanbul Card Show 14–15 Kasım duyurusu.",
       "notlar": [
-        "ham-mod: SMK-005 ham modu kapsamıyor; tasarım görseli için ayrı karar gerekir. Karar 'ham' olursa gorsel_ham basılır."
+        "Görsel: tasarım görseli basılır (SMK-005 12 Kas ek hükmü, 12–16 Kas ICS istisnası). Ham görsel yalnız yedek."
       ]
     },
     {
@@ -48,6 +48,7 @@
       "metin": "14–15 Kasım'da Lütfi Kırdar'dayız. Kartını getir, stantta tarat. Masadaki QR'la Öncü Birlik rozetini uygulamada açıyorsun. iPhone'da, iOS 26 ve üstünde çalışıyor.",
       "alt": "Fusion Vision Öncü Birlik rozeti.",
       "notlar": [
+        "Görsel: tasarım görseli basılır (SMK-005 12 Kas ek hükmü, 12–16 Kas ICS istisnası). Ham görsel yalnız yedek.",
         "Threads FV profilinin varlığı anonim doğrulanamadı (giriş duvarı). Profil yoksa bu post atlanır."
       ]
     },
@@ -93,7 +94,7 @@
       "metin": "Rozet üç dokunuş.\n1. Fusion Vision'ı indir.\n2. Giriş yap.\n3. Stanttaki QR'ı okut, \"Rozetimi aç\"a dokun.\nRozet hesabına bağlanır.",
       "alt": "Öncü Birlik rozetini açmanın üç adımı: indir, giriş yap, rozetini aç.",
       "notlar": [
-        "ham-mod kararı R1 ile aynı. Ham görsel canlı sayfanın birebir ekran görüntüsü; sayfada 'Ücretsiz indir' yazıyor."
+        "Görsel: tasarım görseli basılır (SMK-005 12 Kas ek hükmü, 12–16 Kas ICS istisnası). Ham görsel yalnız yedek."
       ]
     },
     {
@@ -155,7 +156,7 @@
       "cikartma": "Rozetini al",
       "metin": "(story, caption yok) Bağlantı çıkartması: https://orangepointstudio.github.io/ics2026/?s=ig · çıkartma metni: Rozetini al · konum: rozet ve QR'ın altındaki boş bant (y≈1480–1680, yanıt çubuğunun üstü). Story'yi \"ICS\" öne çıkanına ekle.",
       "notlar": [
-        "ham-mod/story kararı: ig-fv format listesinde story yok; tasarım görseli + story için istisna gerekir, değilse gorsel_ham basılır.",
+        "Görsel: tasarım görseli basılır (SMK-005 12 Kas ek hükmü, 12–16 Kas ICS istisnası). Ham görsel yalnız yedek.",
         "Bağlantı Instagram'ın uygulama içi tarayıcısında açılır; 'Rozetimi aç' düğmesi orada cihazda denenmedi (sayfa iOS IG tarayıcısında 'Safari'de aç' notu gösteriyor).",
         "Öne çıkan şart: feed caption'ları bu bağlantıya dayanıyor, story 24 saatte düşer."
       ],
@@ -181,7 +182,7 @@
       "cikartma": "Rozetini al",
       "metin": "(story, caption yok) Bağlantı çıkartması: https://orangepointstudio.github.io/ics2026/?s=ig · çıkartma metni: Rozetini al · konum: rozet ve QR'ın altındaki boş bant (y≈1480–1680, yanıt çubuğunun üstü). Story'yi \"ICS\" öne çıkanına ekle.",
       "notlar": [
-        "ham-mod/story kararı: ig-fv format listesinde story yok; tasarım görseli + story için istisna gerekir, değilse gorsel_ham basılır.",
+        "Görsel: tasarım görseli basılır (SMK-005 12 Kas ek hükmü, 12–16 Kas ICS istisnası). Ham görsel yalnız yedek.",
         "Bağlantı Instagram'ın uygulama içi tarayıcısında açılır; 'Rozetimi aç' düğmesi orada cihazda denenmedi (sayfa iOS IG tarayıcısında 'Safari'de aç' notu gösteriyor)."
       ],
       "gorsel_ham": [
@@ -229,7 +230,7 @@
       "cikartma": "Rozet sayfası",
       "metin": "(story, caption yok) Bağlantı çıkartması: https://orangepointstudio.github.io/ics2026/?s=ig · çıkartma metni: Rozet sayfası · konum: rozetin altı (y≈1500–1680). Öne çıkana ekle.",
       "notlar": [
-        "ham-mod/story kararı: ig-fv format listesinde story yok; tasarım görseli + story için istisna gerekir, değilse gorsel_ham basılır.",
+        "Görsel: tasarım görseli basılır (SMK-005 12 Kas ek hükmü, 12–16 Kas ICS istisnası). Ham görsel yalnız yedek.",
         "Bağlantı Instagram'ın uygulama içi tarayıcısında açılır; 'Rozetimi aç' düğmesi orada cihazda denenmedi (sayfa iOS IG tarayıcısında 'Safari'de aç' notu gösteriyor)."
       ],
       "gorsel_ham": [

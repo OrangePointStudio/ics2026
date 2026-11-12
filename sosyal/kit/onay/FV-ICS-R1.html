@@ -29,7 +29,7 @@ Uygulama iPhone&#x27;da, iOS 26 ve üstü.
 
 #IstanbulCardShow #ICS2026 #TCG #FusionVision</pre>
 <div style="display:flex;gap:10px;align-items:center"><button onclick="kopyala('m-FV-ICS-R1',this)">Metni kopyala</button><span class="soluk" style="font-size:13px" data-say="m-FV-ICS-R1"></span></div>
-<ul class="d"><li class="ok">otomatik denetim temiz</li></ul><ul class="d soluk"><li>ham-mod: SMK-005 ham modu kapsamıyor; tasarım görseli için ayrı karar gerekir. Karar &#x27;ham&#x27; olursa gorsel_ham basılır.</li></ul></div></section></main><script>
+<ul class="d"><li class="ok">otomatik denetim temiz</li></ul><ul class="d soluk"><li>Görsel: tasarım görseli basılır (SMK-005 12 Kas ek hükmü, 12–16 Kas ICS istisnası). Ham görsel yalnız yedek.</li></ul></div></section></main><script>
 function kopyala(id,btn){const t=document.getElementById(id).innerText;navigator.clipboard.writeText(t).then(()=>{const o=btn.textContent;btn.textContent='Kopyalandı';setTimeout(()=>btn.textContent=o,1400)}).catch(()=>{const r=document.createRange();r.selectNodeContents(document.getElementById(id));const s=getSelection();s.removeAllRanges();s.addRange(r)})}
 document.querySelectorAll('[data-say]').forEach(e=>{const t=document.getElementById(e.dataset.say).innerText;e.textContent=[...t].length+' karakter'});
 </script></body></html>
